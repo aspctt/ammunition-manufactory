@@ -1,9 +1,9 @@
 # <p align=center style="text-align: center;"> Ammunition Manufactory </p>
 
 <p align="center" style="text-align: center;">
-	<img alt="Version" src="https://img.shields.io/badge/Version-1.5.0-orange">
-	<img alt="Available for" src="https://img.shields.io/badge/Available_for-RimWorld_1.6-blue">
-	<img alt="License" src="https://img.shields.io/badge/License-GPL_3.0-red">
+	<img alt="Version" src="https://img.shields.io/badge/Version-1.6.0-orange">
+	<img alt="Available for" src="https://img.shields.io/badge/Available_for-1.6_|_1.7-blue">
+	<img alt="License" src="https://img.shields.io/badge/License-GPL--3.0--or--later-red">
 </p>
 
 <p align="center" style="text-align: center;">
@@ -35,7 +35,7 @@ Combat Extended and Yayo's Combat 3 ammo recipes follow those mods' ammo system 
 
 ## Installation
 
-Subscribe on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3654656592), or place the AmmunitionManufactory folder from the release zip inside your RimWorld `Mods` folder.
+Subscribe on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3654656592), or place the ammunition-manufactory folder from the release zip inside your RimWorld `Mods` folder.
 
 **REMOVE ANY OLD VERSIONS BEFORE INSTALLING**.
 
@@ -50,11 +50,11 @@ No dependencies. Works with any of these when they're installed:
 
 ## Licensing
 
-Ammunition Manufactory is licensed under the **GNU General Public License v3.0**. The full terms are in [LICENSE](./LICENSE). In short:
+Ammunition Manufactory is licensed under the **GNU General Public License v3.0 or later**. The full terms are in [LICENSE](./LICENSE). In short:
 
 * Use, share and change it freely.
-* Anything you release that's built from it must be GPL 3.0 too, keep the copyright notices and credit, and not pass itself off as Ammunition Manufactory.
-* It's GPL 3.0 only. Moving it to a later GPL version is not allowed.
+* Anything you release that's built from it must also use GPL 3.0 or a later version, keep the copyright notices and credit, and not pass itself off as Ammunition Manufactory.
+* You can follow the terms of GPL 3.0 or of any later GPL version.
 
 The building textures are modified from Artillery Machine and are not covered by the GPL. See [NOTICE](./NOTICE) for those, and for copyrights and trademarks.
 
