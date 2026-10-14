@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.6.1] - 2026-10-14
+
+### Changed
+
+- New preview image showing RimWorld 1.7 support
+
 ## [1.6.0] - 2026-10-14
 
 ### Added
@@ -61,7 +67,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 First release.
 
-[Unreleased]: https://github.com/aspctt/ammunition-manufactory/compare/1.6.0...HEAD
+[Unreleased]: https://github.com/aspctt/ammunition-manufactory/compare/1.6.1...HEAD
+[1.6.1]: https://github.com/aspctt/ammunition-manufactory/compare/1.6.0...1.6.1
 [1.6.0]: https://github.com/aspctt/ammunition-manufactory/compare/1.5.0...1.6.0
 [1.5.0]: https://github.com/aspctt/ammunition-manufactory/releases/tag/1.5.0
 [1.4.0]: https://steamcommunity.com/sharedfiles/filedetails/changelog/3654656592
