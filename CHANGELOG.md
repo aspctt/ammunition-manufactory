@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.6.2] - 2026-10-14
+
+### Changed
+
+- Renamed the 1.6 content folder to 1.6-1.7, since RimWorld 1.7 loads it too
+
 ## [1.6.1] - 2026-10-14
 
 ### Changed
@@ -67,7 +73,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 First release.
 
-[Unreleased]: https://github.com/aspctt/ammunition-manufactory/compare/1.6.1...HEAD
+[Unreleased]: https://github.com/aspctt/ammunition-manufactory/compare/1.6.2...HEAD
+[1.6.2]: https://github.com/aspctt/ammunition-manufactory/compare/1.6.1...1.6.2
 [1.6.1]: https://github.com/aspctt/ammunition-manufactory/compare/1.6.0...1.6.1
 [1.6.0]: https://github.com/aspctt/ammunition-manufactory/compare/1.5.0...1.6.0
 [1.5.0]: https://github.com/aspctt/ammunition-manufactory/releases/tag/1.5.0
