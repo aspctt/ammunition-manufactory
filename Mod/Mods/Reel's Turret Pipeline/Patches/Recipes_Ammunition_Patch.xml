@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Turret Ammo Recipe -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_TurretAmmo"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+	
+	<!-- Turret Ammo Bulk Recipe -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_TurretAmmoBulk"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+</Patch>

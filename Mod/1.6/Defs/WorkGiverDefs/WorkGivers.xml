@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ================== Ammunition Manufactory ================== -->
+	<WorkGiverDef>
+		<defName>DoBillsAmmunitionManufactory</defName>
+		<label>make ammunition</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Smithing</workType>
+		<priorityInType>60</priorityInType>
+		<fixedBillGiverDefs>
+			<li>AmmunitionManufactory</li>
+		</fixedBillGiverDefs>
+		<verb>produce ammunition</verb>
+		<gerund>producing ammunition at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+</Defs>

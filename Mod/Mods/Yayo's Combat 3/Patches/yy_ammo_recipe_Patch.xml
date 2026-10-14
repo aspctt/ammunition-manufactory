@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Primitive Ammo Recipe -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_yy_ammo_primitive"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+	
+	<!-- Primitive Ammo x10 Recipe -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_yy_ammo_primitive10"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+	
+	<!-- Primitive Fire Ammo Recipe -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_yy_ammo_primitive_fire"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+	
+	<!-- Primitive Fire Ammo x10 Recipe -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_yy_ammo_primitive_fire10"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+	
+	<!-- Primitive EMP Ammo Recipe -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_yy_ammo_primitive_emp"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+	
+	<!-- Primitive EMP Ammo x10 Recipe -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_yy_ammo_primitive_emp10"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+	
+	<!-- Industrial Ammo Recipe -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_yy_ammo_industrial"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+	
+	<!-- Industrial Ammo x10 Recipe -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_yy_ammo_industrial10"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+	
+	<!-- Industrial Fire Ammo Recipe -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_yy_ammo_industrial_fire"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+	
+	<!-- Industrial Fire Ammo x10 Recipe -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_yy_ammo_industrial_fire10"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+	
+	<!-- Industrial EMP Ammo Recipe -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_yy_ammo_industrial_emp"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+	
+	<!-- Industrial EMP Ammo x10 Recipe -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_yy_ammo_industrial_emp10"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+	
+	<!-- Spacer Ammo Recipe -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_yy_ammo_spacer"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+	
+	<!-- Spacer Ammo x10 Recipe -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_yy_ammo_spacer10"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+	
+	<!-- Spacer Fire Ammo Recipe -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_yy_ammo_spacer_fire"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+	
+	<!-- Spacer Fire Ammo x10 Recipe -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_yy_ammo_spacer_fire10"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+	
+	<!-- Spacer EMP Ammo Recipe -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_yy_ammo_spacer_emp"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+	
+	<!-- Spacer EMP Ammo x10 Recipe -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_yy_ammo_spacer_emp10"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+</Patch>

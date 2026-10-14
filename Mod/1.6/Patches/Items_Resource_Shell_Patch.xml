@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- ================== Vanilla Patch ================== -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended</li>
+		</mods>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[@Name="MakeableShellBase"]/recipeMaker/recipeUsers</xpath>
+			<value>
+				<li>AmmunitionManufactory</li>
+			</value>
+		</nomatch>
+	</Operation>
+</Patch>
+

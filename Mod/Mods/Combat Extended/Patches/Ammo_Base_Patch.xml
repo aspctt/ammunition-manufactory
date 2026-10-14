@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Grenade Base Recipe (grenades are weapons, so CE's ammo injector skips them) -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name="GrenadeRecipeBase"]/recipeUsers</xpath>
+		<value>
+			<li>AmmunitionManufactory</li>
+		</value>
+	</Operation>
+	
+	<!-- Ammo Base Injection (Unused) -->
+	<!--Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[@Name="AmmoBase"]/tradeTags</xpath>
+		<value>
+			<li>CE_AutoEnableCrafting_AmmunitionManufactory</li>
+
+		</value>
+	</Operation-->
+</Patch>

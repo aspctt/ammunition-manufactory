@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- CE only adds recipes for ammo used by at least one weapon to the benches listed per crafting tag -->
+	<!-- CE overwrites same-tag entries across separate AmmoInjectorOptions defs, so extend its own def instead of adding a new one -->
+
+	<!-- Ammo Bench -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/CombatExtended.AmmoInjectorOptions[defName="ammoInjectorOptions"]/benchesByTag/CE_AutoEnableCrafting</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/CombatExtended.AmmoInjectorOptions[defName="ammoInjectorOptions"]/benchesByTag/CE_AutoEnableCrafting</xpath>
+			<value>
+				<li>AmmunitionManufactory</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/CombatExtended.AmmoInjectorOptions[defName="ammoInjectorOptions"]/benchesByTag</xpath>
+			<value>
+				<CE_AutoEnableCrafting>
+					<li>AmmunitionManufactory</li>
+				</CE_AutoEnableCrafting>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<!-- Machining Table -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/CombatExtended.AmmoInjectorOptions[defName="ammoInjectorOptions"]/benchesByTag/CE_AutoEnableCrafting_TableMachining</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/CombatExtended.AmmoInjectorOptions[defName="ammoInjectorOptions"]/benchesByTag/CE_AutoEnableCrafting_TableMachining</xpath>
+			<value>
+				<li>AmmunitionManufactory</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/CombatExtended.AmmoInjectorOptions[defName="ammoInjectorOptions"]/benchesByTag</xpath>
+			<value>
+				<CE_AutoEnableCrafting_TableMachining>
+					<li>AmmunitionManufactory</li>
+				</CE_AutoEnableCrafting_TableMachining>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<!-- Fabrication Bench -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/CombatExtended.AmmoInjectorOptions[defName="ammoInjectorOptions"]/benchesByTag/CE_AutoEnableCrafting_FabricationBench</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/CombatExtended.AmmoInjectorOptions[defName="ammoInjectorOptions"]/benchesByTag/CE_AutoEnableCrafting_FabricationBench</xpath>
+			<value>
+				<li>AmmunitionManufactory</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/CombatExtended.AmmoInjectorOptions[defName="ammoInjectorOptions"]/benchesByTag</xpath>
+			<value>
+				<CE_AutoEnableCrafting_FabricationBench>
+					<li>AmmunitionManufactory</li>
+				</CE_AutoEnableCrafting_FabricationBench>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<!-- Fueled Smithy -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/CombatExtended.AmmoInjectorOptions[defName="ammoInjectorOptions"]/benchesByTag/CE_AutoEnableCrafting_FueledSmithy</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/CombatExtended.AmmoInjectorOptions[defName="ammoInjectorOptions"]/benchesByTag/CE_AutoEnableCrafting_FueledSmithy</xpath>
+			<value>
+				<li>AmmunitionManufactory</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/CombatExtended.AmmoInjectorOptions[defName="ammoInjectorOptions"]/benchesByTag</xpath>
+			<value>
+				<CE_AutoEnableCrafting_FueledSmithy>
+					<li>AmmunitionManufactory</li>
+				</CE_AutoEnableCrafting_FueledSmithy>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<!-- Electric Smithy -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/CombatExtended.AmmoInjectorOptions[defName="ammoInjectorOptions"]/benchesByTag/CE_AutoEnableCrafting_ElectricSmithy</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/CombatExtended.AmmoInjectorOptions[defName="ammoInjectorOptions"]/benchesByTag/CE_AutoEnableCrafting_ElectricSmithy</xpath>
+			<value>
+				<li>AmmunitionManufactory</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/CombatExtended.AmmoInjectorOptions[defName="ammoInjectorOptions"]/benchesByTag</xpath>
+			<value>
+				<CE_AutoEnableCrafting_ElectricSmithy>
+					<li>AmmunitionManufactory</li>
+				</CE_AutoEnableCrafting_ElectricSmithy>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<!-- Drug Lab -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/CombatExtended.AmmoInjectorOptions[defName="ammoInjectorOptions"]/benchesByTag/CE_AutoEnableCrafting_DrugLab</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/CombatExtended.AmmoInjectorOptions[defName="ammoInjectorOptions"]/benchesByTag/CE_AutoEnableCrafting_DrugLab</xpath>
+			<value>
+				<li>AmmunitionManufactory</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/CombatExtended.AmmoInjectorOptions[defName="ammoInjectorOptions"]/benchesByTag</xpath>
+			<value>
+				<CE_AutoEnableCrafting_DrugLab>
+					<li>AmmunitionManufactory</li>
+				</CE_AutoEnableCrafting_DrugLab>
+			</value>
+		</nomatch>
+	</Operation>
+</Patch>

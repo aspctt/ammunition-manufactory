@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+	<v1.6>
+		<li>/</li>
+		<li>1.6</li>
+		
+		<!-- CE Compatibility -->
+		<li IfModActive="CETeam.CombatExtended">Mods/Combat Extended</li>
+		<!-- Better Architect Menu Compatibility -->
+		<li IfModActive="ferny.BetterArchitect">Mods/Better Architect Menu</li>
+		<!-- Yayo's Combat 3 Compatibility -->
+		<li IfModActive="Mlie.YayosCombat3">Mods/Yayo's Combat 3</li>
+		<!-- Reel's Turret Pipeline Compatibility -->
+		<li IfModActive="Reel.TurretPipeline">Mods/Reel's Turret Pipeline</li>
+	</v1.6>
+</loadFolders>
